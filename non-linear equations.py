@@ -14,3 +14,6 @@ f2 = x**2 + y**2 - 7
 plt.contour(x,y,f1,[0])
 plt.contour(x,y,f2,[0])
 plt.show()
+
+# %%
+from scipy.optimize import fsolve
